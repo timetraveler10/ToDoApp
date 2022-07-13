@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.AppSplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo_dark2</item>
+        <item name="splashScreenIconSize">50dp</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_logo_light</item>
+        <item name="windowSplashScreenAnimationDuration">1100</item>
+        <item name="postSplashScreenTheme">@style/Theme.ToDoApp</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
